@@ -1,0 +1,40 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <artifactId>mmp-designing-hexagonal-architecture</artifactId>
+    <groupId>com.packtpub.designing.hexagonal.architecture</groupId>
+    <version>1.0-SNAPSHOT</version>
+  </parent>
+
+  <groupId>com.packtpub.designing.hexagonal.architecture.handle.behavior</groupId>
+  <artifactId>chapter_03</artifactId>
+  <version>1.0-SNAPSHOT</version>
+
+  <name>Designing Hexagonal Architecture with Java :: Handling Behavior</name>
+
+  <properties>
+    <cucumber.version>7.3.3</cucumber.version>
+  </properties>
+
+  <dependencies>
+
+    <dependency>
+      <groupId>org.apache.camel.quarkus</groupId>
+      <artifactId>camel-quarkus-file</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>io.cucumber</groupId>
+      <artifactId>cucumber-java</artifactId>
+      <version>${cucumber.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>io.cucumber</groupId>
+      <artifactId>cucumber-junit</artifactId>
+      <version>${cucumber.version}</version>
+    </dependency>
+  </dependencies>
+
+</project>

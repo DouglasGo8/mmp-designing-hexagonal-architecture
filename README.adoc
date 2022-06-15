@@ -37,7 +37,6 @@ record Router (RouterType routerType, RouterId routerId) {
   }
 }
 
-
 enum RouterType {
   CORE, EDGE
 }
@@ -48,3 +47,6 @@ class RouterId {
 
 
 ----
+
+.Ports and the Application hexagon
+image::architecture/thumb/postAndApp.png[]
